@@ -73,4 +73,4 @@ do
     fi
 done
 
-echo "Ambiente instalado e pronto para usar! Já deixei ativo =D"
+echo "Ambiente instalado e pronto para usar!"
