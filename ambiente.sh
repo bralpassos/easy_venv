@@ -33,7 +33,7 @@ PACOTES=( "bottle" "jinja2" )
 VIRTUALENV=$(which virtualenv)
 
 
-if [ $VIRTUALENV == "" ]; then
+if [ $VIRTUALENV -Z ]; then
     echo "Você não tem o virtualenv instalado!"
     exit 1
 fi
